@@ -93,16 +93,27 @@ li a{
 	font-size:12px;
 }
 
+li a{
+	text-decoration:none;
+	color: black;
+	font-size:12px;
+}
+
+li a:hover{
+	color:red;
+	text-decoration:underline;
+	font-size:20px;
+}
+
 .top-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+	border-top: dotted dimgrey;
+	padding-top:20px;
 }
 
 .top-content .text-container {
-    width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -138,14 +149,32 @@ li a{
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+	border-top: dotted dimgrey;
+	padding-top:20px;
+	border-bottom: dotted dimgrey;
+	padding-bottom:20px;
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+    padding: 0 1%;
+    padding-bottom: 20px;
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.learn{
+	color:black;
+	text-decoration:none;
+	font-size:11px;
+	border: solid black 2px;
+	padding:7px 15px;
+	border-radius:5px;
+}
+
+p{
+	margin:0px 0px 20px 0px;
 }
 
 footer {
